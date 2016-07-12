@@ -1,0 +1,10 @@
+include ../hamburger-menu/hamburger-menu
+include ../logo/logo
+include ../search-form/search-form
+
+mixin header()
+	+b.HEADER.header&attributes(attributes)
+		.container
+			+hamburger-menu
+			+logo
+			+search-form
