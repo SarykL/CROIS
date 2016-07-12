@@ -5,7 +5,7 @@
 ----------
 
 
-[Source PSD file](https://symu.co/freebies/templates-4/crios-psd-template/)
+[Source PSD file](https://symu.co/freebies/templates-4/crios-psd-template/){:target="_blank"}
 
 
 
