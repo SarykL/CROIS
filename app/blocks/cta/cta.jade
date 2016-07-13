@@ -1,0 +1,11 @@
+include ../button/button
+mixin cta(cta)
+	+b.cta&attributes(attributes)
+		.container
+			+e.H2.primary= cta.primary
+			+e.H3.secondary= cta.secondary
+			+e.button
+				+button({
+					"type": "button",
+					"text": "EXPLORE TEMPLATE"
+					})

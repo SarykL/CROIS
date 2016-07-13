@@ -1,5 +1,11 @@
 include ../header/header
+include ../banner/banner
+include ../cta/cta
 mixin page()
 	+b('body').page&attributes(attributes)
 		// Header Section
 		+header
+		+cta({
+			"primary": "Simple PSD template with cool stuff",
+			"secondary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."})
+		+banner
